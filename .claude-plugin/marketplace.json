@@ -1,0 +1,13 @@
+{
+  "name": "risha-studio",
+  "owner": { "name": "Risha Studio" },
+  "metadata": { "description": "Risha screenplay tools and writing workflows." },
+  "plugins": [
+    {
+      "name": "risha-screenwriting",
+      "source": ".",
+      "description": "Draft screenplays and prepare Risha .trf files locally.",
+      "version": "0.1.0"
+    }
+  ]
+}

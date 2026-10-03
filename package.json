@@ -1,0 +1,17 @@
+{
+  "name": "risha-claude-plugin",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "description": "Risha screenplay authoring and loss-aware TRF preparation for Claude plugins",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "check": "node --check src/server.js && node --check src/stdio.js && node --check src/screenplay.js && node --check dist/server.mjs",
+    "test": "node --test tests/*.test.js",
+    "package:plugin": "node scripts/package-plugin.mjs"
+  },
+  "dependencies": { "@modelcontextprotocol/sdk": "1.32.0", "zod": "4.6.5" },
+  "devDependencies": { "esbuild": "0.28.2" }
+}

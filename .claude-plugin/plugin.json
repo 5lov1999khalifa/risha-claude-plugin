@@ -1,0 +1,10 @@
+{
+  "name": "risha-screenwriting",
+  "version": "0.1.0",
+  "description": "Draft Arabic or English screenplays and prepare loss-aware Risha TRF files with local formatting tools.",
+  "author": { "name": "Risha Studio", "url": "https://rishastudio.com" },
+  "homepage": "https://rishastudio.com/screenwriting/",
+  "repository": "https://github.com/5lov1999khalifa/risha-claude-plugin",
+  "license": "MIT",
+  "keywords": ["screenwriting", "screenplay", "risha", "arabic", "trf"]
+}

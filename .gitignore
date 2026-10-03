@@ -1,0 +1,8 @@
+node_modules/
+artifacts/
+.env*
+.dev.vars*
+.DS_Store
+*.log
+!.claude-plugin/
+
