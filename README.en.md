@@ -10,7 +10,7 @@ Claude writes the creative text. Risha's tools assemble, validate and return rev
 
 You need **Claude Code** and **Node.js 22 or later** available to the application. The distributed server runs locally without inference keys, a Risha account or an npm installation script.
 
-The planned GitHub source is `5lov1999khalifa/risha-claude-plugin`. Its public publication has not been verified in this draft. Use these commands once the public repository exists:
+The plugin is available in [Risha's public GitHub repository](https://github.com/5lov1999khalifa/risha-claude-plugin). Installation from that repository and the tool connection have been verified in Claude Code:
 
 ```text
 claude plugin marketplace add 5lov1999khalifa/risha-claude-plugin
@@ -52,8 +52,8 @@ Tools require complete **TRF v1 JSON**. The package has no PDF, DOCX or Final Dr
 
 ## Directory submission
 
-A public GitHub marketplace can distribute the plugin after publication and local testing. Anthropic directory listing is a separate submission, review and publication process. The public repository and review status remain pending in this draft. [Submission preparation](docs/DIRECTORY-SUBMISSION-AR.md).
+A public GitHub marketplace distributes this plugin independently. Anthropic directory listing is a separate submission, review and publication process. This package has not been submitted to or approved by that directory. [Submission preparation](docs/DIRECTORY-SUBMISSION-AR.md).
 
-Local verification: installation and the MCP connection passed in an isolated Claude Code configuration; all eight bundled-server tests passed. This does not establish Cowork, chat, or directory approval. [Verification record in Arabic](docs/VERIFICATION-AR.md).
+Verification: installation from GitHub and the MCP connection passed in an isolated Claude Code configuration; all eight bundled-server tests passed. This does not establish Cowork, chat, or directory approval. [Verification record in Arabic](docs/VERIFICATION-AR.md).
 
 Website: [Risha Studio](https://rishastudio.com/).

@@ -2,7 +2,7 @@
 
 3 أكتوبر 2026 · مواد إعداد للتقديم، ولم يُقدّم التطبيق أو يُعتمد بعد.
 
-الحزمة: `risha-screenwriting`، والمهارة: `screenplay`. مصدر GitHub المخطط: `https://github.com/5lov1999khalifa/risha-claude-plugin`. الحزمة في جذر المستودع، لا في مجلد فرعي. يشير Marketplace الخاص بريشة استوديو إلى الحزمة نفسها؛ نشره على GitHub لا يساوي الظهور في دليل Anthropic.
+الحزمة: `risha-screenwriting`، والمهارة: `screenplay`. [مصدر GitHub العام](https://github.com/5lov1999khalifa/risha-claude-plugin) منشور، ونجح تثبيته واتصاله في Claude Code. الحزمة في جذر المستودع، لا في مجلد فرعي. يشير Marketplace الخاص بريشة استوديو إلى الحزمة نفسها؛ نشره على GitHub لا يساوي الظهور في دليل Anthropic.
 
 ## ما يلزم قبل فتح التقديم
 
@@ -26,4 +26,4 @@
 
 يمكن إضافة Marketplace أو ZIP إلى حساب Claude من واجهة Plugins، لكن المكونات تختلف بحسب السطح. الخادم المحلي يعمل في Claude Code، ويُحمّل في جلسة Cowork تعمل على الكمبيوتر، ويُتجاهل في المحادثة العادية. يحتاج استخدام أدوات ريشة داخل المحادثة خادم MCP عاماً عبر HTTPS؛ إذا قدمنا خادماً بعيداً لاحقاً، يُقدّم هو أيضاً كـMCP connector مستقل إلى جانب حزمة الإضافة. [دعم المنصات](https://claude.com/docs/plugins/platform-support).
 
-اختبار Cowork الفعلي، وتشغيل Node في بيئته، وتقديم الدليل وقرار Anthropic لم تُثبت بعد. رابط GitHub العام وحالة الاختبارات يُحدّثان بدليل التحقق عند اكتمالهما. لا توجد نسخة Chat remote connector في هذه الحزمة.
+اختبار Cowork الفعلي، وتشغيل Node في بيئته، وتقديم الدليل وقرار Anthropic لم تُثبت بعد. [نتائج التحقق الحالية](VERIFICATION-AR.md) توثق نشر GitHub وتثبيت Claude Code واتصاله. لا توجد نسخة Chat remote connector في هذه الحزمة.
