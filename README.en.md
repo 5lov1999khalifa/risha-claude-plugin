@@ -23,7 +23,7 @@ Start a new Claude Code session and use:
 /risha-screenwriting:screenplay
 ```
 
-To try a local copy for one session, run `claude --plugin-dir .` from the plugin root. Installation downloads the source from GitHub; screenplay tools themselves compute locally without contacting inference services or external accounts. [Official installation guide](https://code.claude.com/docs/en/discover-plugins).
+To try a local copy for one session, run `claude --plugin-dir .` from the plugin root. Installation downloads the source from GitHub. Some Claude Code versions may also install development dependencies from the npm registry because the source includes package files; the runtime ZIP omits those files, and the bundled server does not require those downloads to run. Screenplay tools themselves compute locally without contacting inference services or external accounts. [Official installation guide](https://code.claude.com/docs/en/discover-plugins).
 
 ## Use
 
